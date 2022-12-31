@@ -38,3 +38,19 @@ else if(playerInput == 3){
 }
 
 printMessage('Twój ruch to: ' + playerMove);
+
+if (computerMove == 'kamień' && playerMove == 'papier' || computerMove == 'papier' && playerMove == 'nożyce' || computerMove == 'nożyce' && playerMove == 'kamień') {
+    printMessage('Ty wygrywasz!');
+}
+
+else if (computerMove == 'papier' && playerMove == 'kamień' || computerMove == 'kamień' && playerMove == 'nożyce' || computerMove == 'nożyce' && playerMove == 'papier') {
+    printMessage('Ty przegrałeś!');
+}
+
+else if (computerMove == 'kamień' && playerMove == 'kamień' || computerMove == 'papier' && playerMove == 'papier' || computerMove == 'nożyce' && playerMove == 'nożyce'){
+    printMessage('Remis!');
+}
+
+else {
+    printMessage('nieznany ruch');
+}
