@@ -1,0 +1,52 @@
+body{
+    color: tomato;
+    text-align: center;
+}
+
+banner {
+    height: 100vh;
+    position: relative;
+    background-image: url("https://i.postimg.cc/bNrjpM0c/pexels-barry-plott-753500-1-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.banner-inner {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+
+}
+
+.page-title {
+    font-size: 100px;
+    font-weight: 700;
+    color: red;
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.5) 0%, rgba(148, 187, 233, 0.5) 100%);
+    text-shadow: 1px 0 3px #228B22,
+        0 1px 1px #228B22,
+        -1px 0 1px #228B22,
+        0 -1px 1px #228B22;
+}
+
+.btn {
+    border-radius: 10px;
+    margin-left: 750px;
+    padding: 10px 10px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: #228B22;
+}
