@@ -41,6 +41,7 @@ function playGame(playerInput) {
   }
 
   clearMessages();
+  clearResult();
 
   let randomNumber = Math.floor(Math.random() * 3 + 1);
 
@@ -58,7 +59,7 @@ function playGame(playerInput) {
 
   displayResult(computerMove, playerMove);
   console.log(counterComp + ":" + counterPlayer);
-  printMessage(counterComp + ":" + counterPlayer);
+  printResult(counterComp + ":" + counterPlayer);
 }
 console.log("hello");
 
